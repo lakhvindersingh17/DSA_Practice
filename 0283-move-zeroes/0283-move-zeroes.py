@@ -11,7 +11,6 @@ class Solution:
                     zeroPos=i
             
             elif(zeroPos!=-1):
-                nums[zeroPos]=nums[i]
+                nums[zeroPos],nums[i]=nums[i],0
                 zeroPos+=1
-                nums[i]=0
         
