@@ -10,9 +10,8 @@ class Solution:
                 if(zeroPos==-1):
                     zeroPos=i
             
-            else:
-                if(zeroPos!=-1):
-                    nums[zeroPos]=nums[i]
-                    zeroPos+=1
-                    nums[i]=0
+            elif(zeroPos!=-1):
+                nums[zeroPos]=nums[i]
+                zeroPos+=1
+                nums[i]=0
         
